@@ -14,7 +14,7 @@ spec:
         app: nginx-frontend
     spec:
       containers:
-      - image: justinwatkinson/demo-nginx:v1.0
+      - image: justinwatkinson/demo-nginx:v2.0
         name: nginx-frontend
         ports:
         - containerPort: 80
